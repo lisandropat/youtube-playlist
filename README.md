@@ -34,3 +34,9 @@ Descargarlo desde su página oficial y luego Añade la carpeta bin a tu PATH:
 
 Para todos los sistemas operativos, en su terminal hacer `pip3 install yt-dlp mutagen`
 
+## 4. Correr playlist.py
+
+Para correr playlist.py, si lo tenemos en las descargas y dentro de la carpeta donde se descarga directo desde Github, por ejemplo, sería con el siguiente comando:
+`python3 downloads/youtube-playlist/playlist.py`
+
+Las canciones se descargarán en la carpeta "downloads" dentro de una carpeta que se creará con el nombre de "playlist". Siempre **corroborar que no se hayan descargado canciones indeseadas** ya que si el motor no encuentra una canción, buscará los ~2 resultados más cercanos que encuentre en YouTube.
