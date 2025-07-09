@@ -1,5 +1,7 @@
 # youtube-playlist
 
+Este script descarga playlists de YouTube en formato mp3. Debemos modificar la linea 114 (la anteultima, el valor `playlist_url`) por el link de la playlist que deseas descargar, y la linea 31 (el valor `default_artist`) por el nombre de la playlist que desees, este será colocado como nombre de artista para que cualquier reproductor de sonido pueda clasificarlo fácilmente.
+
 Para que tu script funcione correctamente, necesitarás instalar varias dependencias. Aquí te detallo cómo instalarlas en diferentes sistemas operativos:
 
 ## 1. Instalación de pip3 (si no lo tienes)
